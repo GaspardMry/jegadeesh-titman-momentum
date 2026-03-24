@@ -2,23 +2,21 @@
 # STRATÉGIE MOMENTUM — Jegadeesh & Titman (1993)
 # "Returns to Buying Winners and Selling Losers"
 #
-# Logique de la stratégie :
+# La Logique de la stratégie consiste à :
 #   1. Chaque semestre, on regarde les rentabilités des 12 mois précédents
 #   2. On classe les actions en 10 déciles selon leur performance cumulée
 #   3. On achète les WINNERS (décile 9 = top 10%) et on vend les LOSERS (décile 0)
 #   4. On mesure la performance du portefeuille sur les 6 mois suivants
 #   5. On itère sur toutes les périodes et on teste si le gain est significatif
 # =============================================================================
-
 import pandas as pd
 import numpy as np
 from scipy import stats
 
-
 # =============================================================================
 # ÉTAPE 0 — CHARGEMENT DES DONNÉES
 # =============================================================================
-# Remplace ce chemin par le chemin de ton vrai fichier CSV CRSP
+# Il faut remplacer ce chemin par le chemin de ton vrai fichier CSV CRSP
 # Exemple : DATA_PATH = "/Users/toi/Downloads/crsp_data.csv"
 
 DATA_PATH = "crsp_data_test.csv"   # fichier de test généré par generate_test_data.py
