@@ -16,6 +16,4 @@ holding winners and shorting losers
 `numpy` `pandas` `matplotlib` `yfinance`
 
 ## Context
-Academic project — ESSCA School of Management, Finance & Financial Engineering (2026)  
-Based on: *Jegadeesh, N. & Titman, S. (1993). Returns to Buying Winners and 
-Selling Losers. Journal of Finance.*
+Personal Project - Complementary Training *Derivatives & Financial Markets*
